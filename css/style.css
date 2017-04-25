@@ -14,19 +14,15 @@ footer {
 }
 
 .container {
-  width: 80%;
+  width: 70%;
 }
 
 .row {
   text-align: center;
 }
 
-.box {
-
-  /*padding: 4px;*/
-  /*border: 2px solid black;*/
-}
 .box img{
-  height:35%;
-  width: 35%;
+  height: 90%;
+  width: 90%;
+
 }
