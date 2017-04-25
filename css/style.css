@@ -2,8 +2,19 @@ h1 {
   text-align: center;
 }
 
+body {
+  background-image: url('../images/stage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 footer {
   text-align: center;
+}
+
+.container {
+  width: 80%;
 }
 
 .row {
