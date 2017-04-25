@@ -1,4 +1,4 @@
-$(document).ready(function){
+$(document).ready(function(){
 
 $(".row").click(function(){
 
@@ -6,10 +6,10 @@ $(".row").click(function(){
 });
 
 $('.seat').hover(function(){
-    $(this).fadeTo('fast', '.25');
+    $(this).fadeTo(100, '.35');
   },
   function(){
-    $(this).fadeTo('fast', '1');
+    $(this).fadeTo(100, '1');
   }
 );
 
