@@ -48,6 +48,7 @@ footer {
   /*z-index: 9999;*/
 }
 
+<<<<<<< HEAD
 .popForm {
   display: none;
   height: 200px;
@@ -60,6 +61,9 @@ footer {
 }
 
 /*.people {background-color: red;
+=======
+.people {background-color: red;
+>>>>>>> b8242fe44951b126cfeb3e8b919607bfd2dbba88
 width:100px;
 height: 100px;}*/
 

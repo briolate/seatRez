@@ -38,6 +38,7 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 70%;
+<<<<<<< HEAD
   /*z-index: 9999;*/ }
 
 .popForm {
@@ -63,3 +64,6 @@ height: 100px;}*/
 
 #rez {
   color: #C1171E; }
+=======
+  z-index: 9999; }
+>>>>>>> b8242fe44951b126cfeb3e8b919607bfd2dbba88

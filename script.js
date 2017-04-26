@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
-
-$(".seat").click(function(){
+//Click function to make reservation
+$(".makeRez").click(function(){
   //or slideToggle depending on what we want
-  $(".popForm").slideDown("slow");
+  $("#myModal").slideDown("slow");
 });
 //add an if else later? like if the seat is reservered, on hover it will
 //show their info. else fadeTo? butts.
@@ -17,7 +17,7 @@ $('.seat').hover(function(){
   }
 );
 
-//Clicked function to toggle and add class
+//Click function to toggle and add class
 $('.seat').click(function(){
   $(this).toggleClass('seatSelected');
 
@@ -45,7 +45,7 @@ $('.reserveIt').click(function() {
 
 
 //Jumbotron button toggle
-$('.btn').click(function(){
+$('.hideHeader').click(function(){
   $('.jumbotron').slideToggle();
   var $this = $(this);
     $this.toggleClass('.btn');

@@ -16,7 +16,38 @@
     <p>Grab a seat and enjoy the show.</p>
   </div>
 
-  <p><a class="btn btn-primary btn-lg" href="#" role="button">Show less</a></p>
+  <a class="btn btn-primary hideHeader" href="#" role="button">Show Less</a>
+
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary makeRez" data-toggle="modal"
+    data-target="#myModal">Make Reservation
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Make Reservation</h4>
+        </div>
+        <div class="modal-body">
+            First Name<input type="text" name="firstName"
+              placeholder="First Name" id="firstName"><br>
+            Last Name<input type="text" name="lastName"
+              placeholder="Last Name" id="lastName"><br>
+            Email Address<input type="email" name="email"
+              placeholder="Email" id="email"><br>
+            Phone Number<input type="text" type="number" name="phoneNumber"
+              placeholder="Phone Number" id="phoneNumber"><br><br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Make Reservation</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- <div class="people">
     <p></p>
@@ -60,20 +91,6 @@
       <div class="seat col-xs-2"><img src="images/seat1.png"/><div id="d6"></div></div>
     </div>
 
-  </div>
-
-  <div class="popForm">
-    <form>
-      First Name<input type="text" name="firstName"
-        placeholder="First Name" id="firstName"><br>
-      Last Name<input type="text" name="lastName"
-        placeholder="Last Name" id="lastName"><br>
-      Email Address<input type="email" name="email"
-        placeholder="Email" id="email"><br>
-      Phone Number<input type="text" type="number" name="phoneNumber"
-        placeholder="Phone Number" id="phoneNumber"><br><br>
-    </form>
-    <button class="reserveIt" type="submit" value="Submit">Submit Reservation</button>
   </div>
 
   <footer>Potential footer</footer>
