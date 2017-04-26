@@ -1,6 +1,3 @@
-
-
-
 $(document).ready(function(){
 
 $(".seat").click(function(){
@@ -50,6 +47,7 @@ if($(".seatSelected")){
 }
 });
 
+//Jumbotron button toggle
 $('.btn').click(function(){
   $('.jumbotron').slideToggle();
   var $this = $(this);
