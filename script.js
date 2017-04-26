@@ -32,12 +32,16 @@ $('.reserveIt').click(function() {
       var first = $("#firstName").val();
       var last = $("#lastName").val();
       var email = $("#email").val();
-      //click creates obj the contains user input
-      var info = [first, last, email];
-      //obj is assigned to the clicked seat
+      var data = {
+        rows: [{
+          First: first,
+          Last: last,
+          Email: email
+        }]
+      }
+      console.log(data);
 
 });
-
 
 $('.btn').click(function(){
   $('.jumbotron').slideToggle();
