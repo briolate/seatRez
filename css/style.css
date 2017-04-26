@@ -61,3 +61,11 @@ footer {
   right: 0px;
   text-align: center;
 }
+
+.infoDiv {
+  /*display: none;*/
+  height:150px;
+  width: 150px;
+  background-color: rgba(255, 0, 0, 0.75);
+
+}
