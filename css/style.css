@@ -36,10 +36,22 @@ footer {
   height: 90%;
   width: 90%;
 <<<<<<< HEAD
-
+<<<<<<< HEAD
 
 =======
->>>>>>> 96490958ed724e015232452b6581216ae494a761
+>>>>>>> 661ea66c647b4819b590fc441b9ba24078989d5b
+
+}
+.seatSelected{
+  padding-left: -5px;
+  padding-right: -5px;
+  border: solid 1px white;
+  border-radius: 50px;
+  background-image: url("xfile.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  z-index: 9999;
 }
 
 .popForm {
