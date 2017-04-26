@@ -20,10 +20,12 @@ footer {
   background-image: url('../images/film.png');
   background-repeat: no-repeat;
   background-position: right;
+  background-attachment: absolute;
+  background-size: 44%;
 }
 
 
-.seatcontainer {
+.seatContainer {
   width: 70%;
   margin-top: 30px;
 }
