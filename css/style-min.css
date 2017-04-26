@@ -39,13 +39,3 @@ footer {
   background-position: center;
   background-size: 70%;
   z-index: 9999; }
-
-.popForm {
-  display: none;
-  height: 200px;
-  width: 200px;
-  background-color: red;
-  position: relative;
-  left: 900px;
-  bottom: 700px;
-  text-align: center; }
