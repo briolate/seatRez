@@ -6,7 +6,7 @@ $(document).ready(function(){
 $(".seat").click(function popup(){
 
   $(".popForm").css("display","block");
-  
+
 });
 
 $('.seat').hover(function(){
@@ -19,6 +19,13 @@ $('.seat').hover(function(){
 
 $('.btn').click(function(){
   $('.jumbotron').slideToggle();
+  var $this = $(this);
+    $this.toggleClass('.btn');
+    if($this.hasClass('.btn')){
+        $this.text('Show more');
+    } else {
+      $this.text('Show less');
+    }
 });
 
 
