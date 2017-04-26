@@ -23,7 +23,7 @@ footer {
 }
 
 .seatContainer {
-  width: 70%;
+  width: 80%;
   margin-top: 30px;
 }
 
@@ -34,7 +34,6 @@ footer {
 .seat img {
   height: 90%;
   width: 90%;
-
 
 }
 .seatSelected{
@@ -48,7 +47,6 @@ footer {
   background-size: 70%;
   z-index: 9999;
 }
-
 
 .popForm {
   display: none;
