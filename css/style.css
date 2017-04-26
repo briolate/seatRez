@@ -55,9 +55,9 @@ footer {
   display: none;
   height: 200px;
   width: 200px;
-  background-color: red;
-  position: relative;
-  left: 900px;
-  bottom:700px;
+  background-color: rgba(255, 0, 0, 0.75);
+  position: fixed;
+  top: 0px;
+  right: 0px;
   text-align: center;
 }
