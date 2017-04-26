@@ -16,6 +16,10 @@ footer {
   text-align: center;
 }
 
+.jumbotron {
+  height: 40%;
+}
+
 .container {
   width: 70%;
   margin-top: 30px;

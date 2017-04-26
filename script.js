@@ -13,5 +13,10 @@ $('.seat').hover(function(){
   }
 );
 
+$('.btn').click(function(){
+  $('.jumbotron').slideToggle();
+});
+
+
 //document.ready END
 });
