@@ -17,8 +17,11 @@ footer {
 }
 
 .jumbotron {
-  height: 40%;
+  background-image: url('../images/film.png');
+  background-repeat: no-repeat;
+  background-position: right;
 }
+
 
 .seatcontainer {
   width: 70%;
@@ -33,7 +36,7 @@ footer {
   height: 90%;
   width: 90%;
 <<<<<<< HEAD
-  
+
 
 =======
 >>>>>>> 96490958ed724e015232452b6581216ae494a761
