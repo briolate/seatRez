@@ -37,4 +37,11 @@ footer {
 
 .popForm {
   display: none;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  position: relative;
+  left: 900px;
+  bottom:700px;
+  text-align: center;
 }

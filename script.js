@@ -1,8 +1,12 @@
+
+
+
 $(document).ready(function(){
 
-$(".row").click(function(){
+$(".seat").click(function popup(){
 
-  $("popForm").css("display","block");
+  $(".popForm").css("display","block");
+  
 });
 
 $('.seat').hover(function(){
