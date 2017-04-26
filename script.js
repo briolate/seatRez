@@ -24,7 +24,9 @@ $('.seat').hover(function(){
 $('.seat').click(function(){
 
 $(this).toggleClass('seatSelected');
+$(this).addClass("reserved");
 });
+
 
 
 
@@ -38,12 +40,14 @@ $('.reserveIt').click(function() {
           Last: last,
           Email: email
         // }]
-
       }
-  
+
 
       console.log(data);
+if($(".seatSelected")){
+  $('.people p').text(data.First, data.Last);
 
+}
 });
 
 $('.btn').click(function(){
