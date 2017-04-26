@@ -17,10 +17,13 @@ footer {
 }
 
 .jumbotron {
-  height: 40%;
+  background-image: url('../images/film.png');
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
-.container {
+
+.seatcontainer {
   width: 70%;
   margin-top: 30px;
 }
@@ -33,6 +36,19 @@ footer {
   height: 90%;
   width: 90%;
 
+
+}
+.seatSelected{
+  padding-left: -5px;
+  padding-right: -5px;
+  border: solid 1px white;
+  border-radius: 50px;
+  background-image: url("xfile.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  z-index: 9999;
+}
 
 
 .popForm {

@@ -20,6 +20,14 @@ $('.seat').hover(function(){
 );
 
 
+// clicked
+$('.seat').click(function(){
+
+$(this).toggleClass('seatSelected');
+});
+
+
+
 $('.reserveIt').click(function() {
       var first = $("#firstName").val();
       var last = $("#lastName").val();
@@ -45,6 +53,7 @@ $('.btn').click(function(){
       $this.text('Show less');
     }
 });
+
 
 
 //document.ready END
