@@ -20,6 +20,7 @@ footer {
   background-image: url('../images/film.png');
   background-repeat: no-repeat;
   background-position: right;
+
 }
 
 .seatContainer {
@@ -61,4 +62,6 @@ footer {
 
 .people {background-color: red;
 width:100px;
-height: 100px;}
+height: 100px;
+position: inherit;
+}

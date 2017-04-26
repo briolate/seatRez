@@ -24,7 +24,7 @@ $(this).toggleClass('seatSelected');
 $(this).addClass("reserved");
 });
 
-
+$(".seat .reserved").append(".people")
 
 
 $('.reserveIt').click(function() {
