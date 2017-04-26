@@ -33,14 +33,17 @@ $('.reserveIt').click(function() {
       var last = $("#lastName").val();
       var email = $("#email").val();
       var data = {
-        rows: [{
+        // rows: [{
           First: first,
           Last: last,
           Email: email
-        }]
+        // }]
       }
       console.log(data);
+if($(".seatSelected")){
+  $('.people p').text(data.First, data.Last);
 
+}
 });
 
 $('.btn').click(function(){
