@@ -3,9 +3,10 @@
 
 $(document).ready(function(){
 
-$(".row").click(function popup(){
+$(".seat").click(function popup(){
+
+  $(".popForm").css("display","block");
   
-  $("popForm").css("display","block");
 });
 
 $('.seat').hover(function(){
