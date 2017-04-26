@@ -1,8 +1,9 @@
-h1 {
+/*h1 {
   text-align: center;
   color: #E3E2DF;
   text-shadow: 2px solid #000;
-}
+  margin-top: 50px;
+}*/
 
 body {
   background-image: url('../images/stage.jpg');
@@ -15,15 +16,20 @@ footer {
   text-align: center;
 }
 
-.container {
+.jumbotron {
+  height: 40%;
+}
+
+.seatcontainer {
   width: 70%;
+  margin-top: 30px;
 }
 
 .row {
   text-align: center;
 }
 
-.seat img{
+.seat img {
   height: 90%;
   width: 90%;
 
@@ -33,9 +39,20 @@ footer {
   padding-right: -5px;
   border: solid 1px white;
   border-radius: 50px;
-  background-image: url(images/xfile.png);
+  background-image: url("xfile.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  z-index: 9999;
 }
 
 .popForm {
   display: none;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  position: relative;
+  left: 900px;
+  bottom:700px;
+  text-align: center;
 }
