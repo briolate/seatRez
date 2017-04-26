@@ -13,5 +13,11 @@ $('.seat').hover(function(){
   }
 );
 
+// clicked
+$('.seat').click(function(){
+
+$(this).toggleClass('seatSelected');
+});
+
 //document.ready END
 });

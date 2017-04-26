@@ -28,6 +28,13 @@ footer {
   width: 90%;
 
 }
+.seatSelected{
+  padding-left: -5px;
+  padding-right: -5px;
+  border: solid 1px white;
+  border-radius: 50px;
+  background-image: url(images/xfile.png);
+}
 
 .popForm {
   display: none;
