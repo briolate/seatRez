@@ -39,7 +39,13 @@ $('.reserveIt').click(function() {
 
       console.log(data);
 if($(".seatSelected")){
-  $('.people p').text(data.First, data.Last);
+
+  // var aSection =[$("#a1"),$("#a2"),$("#a3"),$("#a4"),$("#a5"),$("#a6")]
+  $(this).addClass('reserved');
+
+  $('#a1').text(data.First);
+
+
 }
 });
 
