@@ -29,4 +29,6 @@ footer {
 
 .popForm {
   display: none;
+  height: 300px;
+  width: 150px;
 }
