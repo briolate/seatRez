@@ -9,7 +9,8 @@ $(".seat").click(function popup(){
 
 
 });
-
+//add an if else later? like if the seat is reservered, on hover it will
+//show their info. else fadeTo? butts.
 $('.seat').hover(function(){
     $(this).fadeTo(100, '.35');
   },
@@ -23,8 +24,10 @@ $('.reserveIt').click(function() {
       var first = $("#firstName").val();
       var last = $("#lastName").val();
       var email = $("#email").val();
-      // console.log(first);
-      $(this)(first + last + email);
+      //click creates obj the contains user input
+      var info = [first, last, email];
+      //obj is assigned to the clicked seat
+
 });
 
 
