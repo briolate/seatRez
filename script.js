@@ -3,15 +3,15 @@
 
 $(document).ready(function(){
 
-$(".seat").click(function popup(){
-
-  $(".popForm").css("display","block");
-
+$(".seat").click(function(){
+  //or slideToggle depending on what we want
+  $(".popForm").slideDown("slow");
 
 });
 //add an if else later? like if the seat is reservered, on hover it will
 //show their info. else fadeTo? butts.
 $('.seat').hover(function(){
+
     $(this).fadeTo(100, '.35');
   },
   function(){
@@ -32,12 +32,16 @@ $('.reserveIt').click(function() {
       var first = $("#firstName").val();
       var last = $("#lastName").val();
       var email = $("#email").val();
-      //click creates obj the contains user input
-      var info = [first, last, email];
-      //obj is assigned to the clicked seat
+      var data = {
+        rows: [{
+          First: first,
+          Last: last,
+          Email: email
+        }]
+      }
+      console.log(data);
 
 });
-
 
 $('.btn').click(function(){
   $('.jumbotron').slideToggle();
