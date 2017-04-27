@@ -55,13 +55,13 @@ $('.reserveIt').click(function() {
 
 //Jumbotron button toggle
 $('.hideHeader').click(function(){
-  $('.jumbotron').slideToggle();
+  $('.carousel, .jumbotron').slideToggle();
   var $this = $(this);
     $this.toggleClass('.btn');
     if($this.hasClass('.btn')){
-        $this.text('Show more');
+        $this.text('Hide Top');
     } else {
-      $this.text('Show less');
+      $this.text('Show Top');
     }
 });
 
