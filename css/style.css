@@ -3,18 +3,22 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  font-family: 'Avenir', Helvetica;
+  font-size: 16px;
 }
 
 .jumbotron h1 {
   font-family: 'Frijole', cursive;
-  color: #5D001E;
+  color: #9A1750;
   text-shadow: 2px 2px black;
   margin-left: 20px;
 }
 
 .jumbotron p {
-  color: #9A1750;
+  color: #C96567;
   margin-left: 50px;
+  background-color: #000;
+  display: inline-block;
 }
 
 .jumbotron {
@@ -87,10 +91,9 @@ body {
   text-align: center;
 }
 
-
 .reserved{
   width: 100px;
-  color:white;
+  color: white;
   height: 100px;
   background-image: url("../images/circle.png");
   background-repeat: no-repeat;

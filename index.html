@@ -11,7 +11,8 @@
   <title>SeatRez</title>
 </head>
 <body>
-  
+
+  <!--Carousel-->
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner" role="listbox">
       <div class="item active">
@@ -26,16 +27,18 @@
     </div>
   </div>
 
-  <!--Jumbotron-->
+  <!-- Jumbotron-->
   <div class="jumbotron">
     <h1>Welcome to SeatRez</h1>
-    <p>Grab a seat and enjoy the show.</p>
+    <p>Grab a seat and enjoy the show</p>
   </div>
+  <!-- End Jumbotron-->
 
   <!--Button collapse for jumbotron/header-->
   <div class="hideButton">
     <button type="button" class="btn btn-primary hideHeader" href="#">Hide Top</button>
   </div>
+  <!-- End Button collapse for jumbotron/header-->
 
   <!-- Button trigger modal -->
   <div class="rezButton">
@@ -43,6 +46,7 @@
       data-target="#myModal">Make Reservation
     </button>
   </div>
+  <!-- End Button trigger modal -->
 
   <!-- Modal -->
   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -53,6 +57,7 @@
             <span aria-hidden="true">&times;</span></button>
           <h4 class="modal-title" id="myModalLabel">Make Reservation with SeatRez</h4>
         </div>
+        <!-- Reservation form -->
         <div class="modal-body">
             First Name<br><input type="text" name="firstName"
               placeholder="First Name" id="firstName"><br><br>
@@ -63,6 +68,7 @@
             Phone Number<br><input type="number" type="number" name="phoneNumber"
               placeholder="Phone Number" id="phoneNumber"><br><br>
         </div>
+        <!-- End Reservation form -->
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           <button type="submit" class="btn btn-primary reserveIt"
@@ -71,17 +77,16 @@
       </div>
     </div>
   </div>
+  <!-- End Modal -->
 
+  <!-- Conatiner for seats -->
   <div class="container seatContainer">
-
     <div class="row">
-
       <div class="col-xs-3"></div>
       <div class="seat col-xs-2"><img src="images/seat1.png"/><div id="a1"></div></div>
       <div class="seat col-xs-2"><img src="images/seat1.png"/><div id="a2"></div></div>
       <div class="seat col-xs-2"><img src="images/seat1.png"/><div id="a3"></div></div>
       <div class="col-xs-3"></div>
-
     </div>
 
   <div class="row">
@@ -119,8 +124,8 @@
       <div class="seat col-xs-2"><img src="images/seat1.png"/><div id="d5"></div></div>
       <div class="seat col-xs-2"><img src="images/seat1.png"/><div id="d6"></div></div>
     </div>
-
   </div>
+  <!-- End Conatiner for seats -->
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
