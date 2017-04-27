@@ -20,7 +20,7 @@ $('.seat').hover(function(){
 //Click function to toggle and add class
 $('.seat').click(function(){
   $(this).toggleClass('seatSelected');
-  $(this).addClass("reserved");
+
   });
 
 //Click function to store reservation
@@ -35,19 +35,14 @@ $('.reserveIt').click(function() {
       Email: email
     // }]
   }
-
-
-      console.log(data);
-if($(".seatSelected")){
-
-  // var aSection =[$("#a1"),$("#a2"),$("#a3"),$("#a4"),$("#a5"),$("#a6")]
-  $(this).addClass('reserved');
-
-  $('#a1').text(data.First);
-
-
-}
+  var dataDisplay = data.First + data.Last;
+  console.log(data);
+// switches classes from selected to reserved
+  $(".seatSelected").text(dataDisplay)
+                    .addClass('reserved')
+                    .removeClass('seatSelected');
 });
+
 
 //Jumbotron button toggle
 $('.hideHeader').click(function(){
