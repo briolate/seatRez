@@ -23,20 +23,22 @@ $('.seat').click(function(){
 
   });
 
-$(".seat .reserved").append(".people")
+$(".seat .reserved").append(".people");
 
 $('.reserveIt').click(function() {
   var first = $("#firstName").val();
   var last = $("#lastName").val();
   var email = $("#email").val();
+  var phone = $("#phone").val()
   var data = {
     // rows: [{
       First: first,
       Last: last,
-      Email: email
+      Email: email,
+      Phone: phone
     // }]
   }
-  var dataDisplay = data.First + data.Last;
+  var dataDisplay = data.First + ' ' + data.Last;
   console.log(data);
 // switches classes from selected to reserved
   $(".seatSelected").text(dataDisplay)
