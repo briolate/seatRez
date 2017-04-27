@@ -36,7 +36,7 @@ $('.reserveIt').click(function() {
   var dataDisplay = data.First + ' ' + data.Last;
   console.log(data);
 // switches classes from selected to reserved
-  $(".seatSelected").replaceWith('<div class="seat reserved col-xs-2"><p>'+dataDisplay+'<div id="a1"></div></div>)')
+  $(".seatSelected").replaceWith('<div class="seat reserved col-xs-2"><p>'+dataDisplay+'<div id="a1"></div></div>')
                     // .addClass('reserved')
                     .removeClass('seatSelected')
                     .off('click');
