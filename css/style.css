@@ -5,15 +5,15 @@ body {
   background-attachment: fixed;
 }
 
-footer {
-  text-align: center;
-}
-
 .jumbotron {
   background-image: url('../images/film.png');
   background-repeat: no-repeat;
   background-position: right;
+}
 
+.d-block {
+  height: 60%;
+  width: 60%;
 }
 
 .seatContainer {
