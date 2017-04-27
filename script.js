@@ -52,7 +52,7 @@ $('.reserveIt').click(function() {
   // $('.reserved p').css('visibility','hidden');
 });
 
-});
+// });
 
 //Jumbotron button toggle
 $('.hideHeader').click(function(){
