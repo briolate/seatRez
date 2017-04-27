@@ -23,7 +23,8 @@ $('.seat').click(function(){
 
   });
 
-//Click function to store reservation
+$(".seat .reserved").append(".people")
+
 $('.reserveIt').click(function() {
   var first = $("#firstName").val();
   var last = $("#lastName").val();

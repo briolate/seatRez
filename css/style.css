@@ -13,11 +13,13 @@ footer {
   background-image: url('../images/film.png');
   background-repeat: no-repeat;
   background-position: right;
+
 }
 
 .seatContainer {
   width: 80%;
   margin-top: 30px;
+  text-align: center;
 }
 
 .row {
@@ -27,6 +29,13 @@ footer {
 .seat img {
   height: 90%;
   width: 90%;
+}
+
+
+.seat {
+  display: inline-block;
+  margin: 0 auto;
+
 }
 
 .seatSelected{
@@ -41,7 +50,7 @@ footer {
   /*z-index: 9999;*/
 }
 
-<<<<<<< HEAD
+
 .people {
   background-color: red;
   width:100px;
@@ -50,8 +59,7 @@ footer {
 .modal {
   text-align: center;
 }
-=======
-<<<<<<< HEAD
+
 .popForm {
   display: none;
   height: 200px;
@@ -64,10 +72,13 @@ footer {
 }
 
 /*.people {background-color: red;
-=======
-.people {background-color: red;
->>>>>>> b8242fe44951b126cfeb3e8b919607bfd2dbba88
+
+
 width:100px;
+
+position: inherit;
+}
+
 height: 100px;}*/
 
 
@@ -76,7 +87,7 @@ height: 100px;}*/
   color:white;
   height: 100px;
   background-image: url("circle.png");
-  
+
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -84,4 +95,3 @@ height: 100px;}*/
 
 
 #rez {color:#C1171E;}
->>>>>>> 004fe868804f4b5b08cc0955305c7cf93c78ab98
