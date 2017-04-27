@@ -41,8 +41,13 @@ $('.reserveIt').click(function() {
 // switches classes from selected to reserved
   $(".seatSelected").text(dataDisplay)
                     .addClass('reserved')
-                    .removeClass('seatSelected');
+                    .removeClass('seatSelected')
+                    .off('click');
+
+
+
 });
+
 
 
 //Jumbotron button toggle
