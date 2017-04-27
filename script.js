@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
-
-$(".seat").click(function(){
+//Click function to make reservation
+$(".makeRez").click(function(){
   //or slideToggle depending on what we want
-  $(".popForm").slideDown("slow");
+  $("#myModal").slideDown("slow");
 });
 //add an if else later? like if the seat is reservered, on hover it will
 //show their info. else fadeTo? butts.
@@ -17,10 +17,10 @@ $('.seat').hover(function(){
   }
 );
 
-//Clicked function to toggle and add class
+//Click function to toggle and add class
 $('.seat').click(function(){
   $(this).toggleClass('seatSelected');
-  $(this).addClass("reserved");
+
   });
 
 $(".seat .reserved").append(".people")
@@ -36,22 +36,17 @@ $('.reserveIt').click(function() {
       Email: email
     // }]
   }
-
-
-      console.log(data);
-if($(".seatSelected")){
-
-  // var aSection =[$("#a1"),$("#a2"),$("#a3"),$("#a4"),$("#a5"),$("#a6")]
-  $(this).addClass('reserved');
-
-  $('#a1').text(data.First);
-
-
-}
+  var dataDisplay = data.First + data.Last;
+  console.log(data);
+// switches classes from selected to reserved
+  $(".seatSelected").text(dataDisplay)
+                    .addClass('reserved')
+                    .removeClass('seatSelected');
 });
 
+
 //Jumbotron button toggle
-$('.btn').click(function(){
+$('.hideHeader').click(function(){
   $('.jumbotron').slideToggle();
   var $this = $(this);
     $this.toggleClass('.btn');
