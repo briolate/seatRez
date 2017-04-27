@@ -77,12 +77,6 @@ body {
   /*z-index: 9999;*/
 }
 
-.people {
-  background-color: red;
-  width:100px;
-  height: 100px;
-}
-
 .modal {
   text-align: center;
 }
