@@ -48,6 +48,7 @@ $('.reserveIt').click(function() {
 
 
 
+
 });
 
 
@@ -64,5 +65,8 @@ $('.hideHeader').click(function(){
     }
 });
 
+$('.carousel').carousel({
+interval: 2000
+})
 //document.ready END
 });

@@ -11,9 +11,10 @@ body {
   background-position: right;
 }
 
-.d-block {
+.carImg {
   height: 60%;
   width: 60%;
+  margin: auto;
 }
 
 .seatContainer {
