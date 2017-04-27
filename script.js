@@ -51,22 +51,21 @@ $('.reserveIt').click(function() {
 
 });
 
-
-
 //Jumbotron button toggle
 $('.hideHeader').click(function(){
   $('.carousel, .jumbotron').slideToggle();
   var $this = $(this);
     $this.toggleClass('.btn');
     if($this.hasClass('.btn')){
-        $this.text('Hide Top');
+        $this.text('Show Top');
     } else {
-      $this.text('Show Top');
+      $this.text('Hide Top');
     }
 });
 
+//Carousel interval
 $('.carousel').carousel({
-interval: 2000
-})
+  interval: 2000
+});
 //document.ready END
 });
