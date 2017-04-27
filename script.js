@@ -21,8 +21,7 @@ $('.seat').click(function(){
 
   });
 
-$(".seat .reserved").append(".people");
-
+//holds user input
 $('.reserveIt').click(function() {
   var first = $("#firstName").val();
   var last = $("#lastName").val();
@@ -41,10 +40,6 @@ $('.reserveIt').click(function() {
                     .addClass('reserved')
                     .removeClass('seatSelected')
                     .off('click');
-
-
-
-
 });
 
 //Jumbotron button toggle
@@ -55,13 +50,13 @@ $('.hideHeader').click(function(){
     if($this.hasClass('.btn')){
         $this.text('Show Top');
     } else {
-      $this.text('Hide Top');
+        $this.text('Hide Top');
     }
 });
 
 //Carousel interval
 $('.carousel').carousel({
-  interval: 2000
+  interval: 3000
 });
 //document.ready END
 });
