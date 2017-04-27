@@ -2,11 +2,9 @@ $(document).ready(function(){
 
 //Click function to make reservation
 $(".makeRez").click(function(){
-  //or slideToggle depending on what we want
+
   $("#myModal").slideDown("slow");
 });
-//add an if else later? like if the seat is reservered, on hover it will
-//show their info. else fadeTo? butts.
 
 //Hover changes opacity
 $('.seat').hover(function(){
@@ -31,12 +29,10 @@ $('.reserveIt').click(function() {
   var email = $("#email").val();
   var phone = $("#phone").val()
   var data = {
-    // rows: [{
       First: first,
       Last: last,
       Email: email,
       Phone: phone
-    // }]
   }
   var dataDisplay = data.First + ' ' + data.Last;
   console.log(data);

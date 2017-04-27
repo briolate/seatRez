@@ -61,27 +61,6 @@ body {
   text-align: center;
 }
 
-.popForm {
-  display: none;
-  height: 200px;
-  width: 200px;
-  background-color: rgba(255, 0, 0, 0.75);
-  position: fixed;
-  top: 0px;
-  right: 0px;
-  text-align: center;
-}
-
-/*.people {background-color: red;
-
-
-width:100px;
-
-position: inherit;
-}
-
-height: 100px;}*/
-
 
 .reserved{
   width: 100px;
