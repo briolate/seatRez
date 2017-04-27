@@ -87,11 +87,19 @@ height: 100px;}*/
   color:white;
   height: 100px;
   background-image: url("circle.png");
-
   background-repeat: no-repeat;
   background-position: center;
+  margin: 0;
+  z-index: 2;
 }
+/*.reserved p {opacity: .0;}
+.reserved p:hover{
+  cursor: pointer;
+position:relative;
+text-align: center;
+opacity: 1.0;
+}*/
 
-
+.taken{visibility: visible;}
 
 #rez {color:#C1171E;}
