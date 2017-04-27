@@ -26,6 +26,7 @@ footer {
 .seatContainer {
   width: 80%;
   margin-top: 30px;
+  text-align: center;
 }
 
 .row {
@@ -35,6 +36,12 @@ footer {
 .seat img {
   height: 90%;
   width: 90%;
+
+}
+
+.seat {
+  display: inline-block;
+  margin: 0 auto;
 
 }
 .seatSelected{
