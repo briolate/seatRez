@@ -81,12 +81,6 @@ body {
   /*z-index: 9999;*/
 }
 
-.people {
-  background-color: red;
-  width:100px;
-  height: 100px;
-}
-
 .modal {
   text-align: center;
 }
@@ -98,4 +92,11 @@ body {
   background-image: url("../images/circle.png");
   background-repeat: no-repeat;
   background-position: center;
+  margin: 0;
+  z-index: 2;
 }
+
+
+.taken{visibility: visible;}
+
+#rez {color:#C1171E;}

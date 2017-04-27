@@ -21,8 +21,7 @@ $('.seat').click(function(){
 
   });
 
-$(".seat .reserved").append(".people");
-
+//holds user input
 $('.reserveIt').click(function() {
   var first = $("#firstName").val();
   var last = $("#lastName").val();
@@ -37,15 +36,23 @@ $('.reserveIt').click(function() {
   var dataDisplay = data.First + ' ' + data.Last;
   console.log(data);
 // switches classes from selected to reserved
-  $(".seatSelected").text(dataDisplay)
-                    .addClass('reserved')
+  $(".seatSelected").replaceWith('<div class="seat reserved col-xs-2"><p>'+dataDisplay+'<div id="a1"></div></div>)')
+                    // .addClass('reserved')
                     .removeClass('seatSelected')
                     .off('click');
-
-
-
-
+// shows names of reserved seats
+  $('.reserved p').css('visibility','hidden');
+  $('.reserved').hover(function(){
+      $('.reserved p').css('visibility', 'visible');
+    },
+    function(){
+      $('.reserved p').css('visibility', 'hidden');
+    }
+  );
+  // $('.reserved p').css('visibility','hidden');
 });
+
+// });
 
 //Jumbotron button toggle
 $('.hideHeader').click(function(){
@@ -55,13 +62,13 @@ $('.hideHeader').click(function(){
     if($this.hasClass('.btn')){
         $this.text('Show Top');
     } else {
-      $this.text('Hide Top');
+        $this.text('Hide Top');
     }
 });
 
 //Carousel interval
 $('.carousel').carousel({
-  interval: 2000
+  interval: 3000
 });
 //document.ready END
 });
