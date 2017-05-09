@@ -85,14 +85,17 @@ body {
 }
 
 .reserved {
-  width: 100px;
   color: white;
-  height: 100px;
-  background-image: url("../images/circle.png");
+  font-size: 20px;
+  background-image: url("../images/reserved.png");
   background-repeat: no-repeat;
   background-position: center;
-  margin: 0;
-  z-index: 2;
+  background-size: 80px 60px;
+  z-index: 1;
+}
+
+.reserved p {
+  margin-top: 60px;
 }
 
 .taken {
