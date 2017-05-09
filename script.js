@@ -17,6 +17,8 @@ $('.seat').hover(function(){
 
 //Click function to toggle and add class
 $('.seat').click(function(){
+  var audio = new Audio('images/hawk.wav');
+  audio.play();
   $(this).toggleClass('seatSelected');
 });
 

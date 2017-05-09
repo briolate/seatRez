@@ -72,12 +72,13 @@ body {
 .seatSelected {
   padding-left: -5px;
   padding-right: -5px;
-  border: solid 1px white;
+  border: solid 1px red;
   border-radius: 50px;
-  background-image: url("../images/xfile.png");
+  background-image: url("../images/wings.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 70%;
+  background-size: contain;
+  /*background-size: 70%;*/
 }
 
 .modal {
