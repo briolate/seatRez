@@ -1,10 +1,9 @@
 $(document).ready(function(){
 
 //Click function to make reservation
-$(".makeRez").click(function(){
-
-  $("#myModal").slideDown("slow");
-});
+// $(".makeRez").click(function(){
+//   $("#myModal").slideDown("slow");
+// });
 
 //Hover changes opacity
 $('.seat').hover(function(){
@@ -35,7 +34,7 @@ $('.reserveIt').click(function(){
       Phone: phone
   }
   var dataDisplay = data.First + ' ' + data.Last;
-  console.log(data);
+  // console.log(data);
 
 // switches classes from selected to reserved
   $(".seatSelected").replaceWith('<div class="seat reserved col-xs-2"><p>'+dataDisplay+'<div id="a1"></div></div>')
